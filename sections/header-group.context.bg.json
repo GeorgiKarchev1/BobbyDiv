@@ -4,5 +4,16 @@
     "market": "bg"
   },
   "sections": {
-  }
+    "header": {
+      "settings": {
+        "color_scheme": "scheme-2",
+        "menu_color_scheme": "scheme-3"
+      },
+      "blocks": {
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
 }

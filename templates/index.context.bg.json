@@ -4,5 +4,82 @@
     "market": "bg"
   },
   "sections": {
-  }
+    "featured_product_4Viqz": {
+      "type": "featured-product",
+      "disabled": false,
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "header-15723a23cf532070088d80e015533520": null,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "header-a0992984f5d2d55894c88dcf3c6c6a18": null,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "text_Dtzhj": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_BAi3X": {
+          "type": "title",
+          "disabled": false,
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_MXVcL": {
+          "type": "price",
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "variant_picker_6T9my": {
+          "type": "variant_picker",
+          "disabled": false,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_Nekid": {
+          "type": "quantity_selector",
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "buy_buttons_Kky4x": {
+          "type": "buy_buttons",
+          "disabled": false,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "text_Dtzhj",
+        "title_BAi3X",
+        "price_MXVcL",
+        "variant_picker_6T9my",
+        "quantity_selector_Nekid",
+        "buy_buttons_Kky4x"
+      ]
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_product_4Viqz"
+  ]
 }
